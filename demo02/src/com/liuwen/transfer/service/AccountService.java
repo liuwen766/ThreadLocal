@@ -1,10 +1,9 @@
-package com.itheima.transfer.service;
+package com.liuwen.transfer.service;
 
-import com.itheima.transfer.dao.AccountDao;
-import com.itheima.transfer.utils.JdbcUtils;
+import com.liuwen.transfer.dao.AccountDao;
+import com.liuwen.transfer.utils.JdbcUtils;
 
 import java.sql.Connection;
-import java.sql.SQLException;
 
 /*
 *   事务：
@@ -55,7 +54,7 @@ public class AccountService {
                 // 转出
                 ad.out(outUser, money);
                 //模拟转出成功，转入失败的情况
-                int i = 1/0;
+//                int i = 1/0;
                 // 转入
                 ad.in(inUser, money);
 

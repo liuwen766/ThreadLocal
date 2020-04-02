@@ -1,4 +1,4 @@
-package com.itheima.test;
+package com.liuwen.test;
 
 /*
 *   事情： 在某个线程中存入一个值，那么当这个线程要取出这个值的时候
@@ -43,7 +43,6 @@ public class Demo01 {
                     * 问题： 在某个线程中，存入的数据和取出的数据并不一致！
                     * */
                     demo01.setContent(Thread.currentThread().getName() + "的数据");
-                    System.out.println("-----------------------------------------");
                     String content = demo01.getContent();
                     System.out.println(Thread.currentThread().getName() + ":" + content);
                 }

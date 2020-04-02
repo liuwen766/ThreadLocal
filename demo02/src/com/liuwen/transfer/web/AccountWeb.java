@@ -1,6 +1,6 @@
-package com.itheima.transfer.web;
+package com.liuwen.transfer.web;
 
-import com.itheima.transfer.service.AccountService;
+import com.liuwen.transfer.service.AccountService;
 
 public class AccountWeb {
 

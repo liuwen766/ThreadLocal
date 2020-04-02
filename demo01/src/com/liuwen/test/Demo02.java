@@ -1,4 +1,4 @@
-package com.itheima.test;
+package com.liuwen.test;
 
 /*
 *   事情： 在某个线程中存入一个值，那么当这个线程要取出这个值的时候

@@ -1,6 +1,6 @@
-package com.itheima.transfer.dao;
+package com.liuwen.transfer.dao;
 
-import com.itheima.transfer.utils.JdbcUtils;
+import com.liuwen.transfer.utils.JdbcUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
